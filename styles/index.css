@@ -1,0 +1,39 @@
+/* stylong with elements */
+body{
+    background-color:#161D26 ;
+}
+/* styling with class */
+.nav{
+ display :flex ;
+ justify-content: space-between;
+ align-items: center;
+}
+.nav_logo{
+    color: bisque;
+    font-size: 2rem;
+    margin: 45px;
+
+}
+.nav_ul{
+    display: flex ;
+
+}
+.nav_links{
+    list-style: none;
+    margin: 30px;
+}
+.nav_links a{
+    color: bisque;
+    text-decoration: none;
+    font-size: 15px;
+}
+.nav_contact{
+    margin: 45px;
+
+}
+.nav_contact a{
+    color: bisque;
+    font-size: 15px;
+    text-decoration: none;
+}
+    
