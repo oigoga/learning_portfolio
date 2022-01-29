@@ -1,39 +1,60 @@
 /* styling with elements */
-body{
-    background-color:#E0EBE8 ;
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comforter&display=swap');
+body {
+  margin: 0;
+}
+header.header {
+  height: 100vh;
+  background-color: #e0ebe8;
 }
 /* styling with class */
-.nav{
- display :flex ;
- justify-content: space-between;
- align-items: center;
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.nav_logo{
-    color: #4AB19A;
-    font-size: 2rem;
-    margin: 45px;
+.nav_logo {
+  color: #4ab19a;
+  font-size: 2rem;
+  margin: 45px;
+}
+.nav_ul {
+  display: flex;
+}
+.nav_links {
+  list-style: none;
+  margin: 30px;
+}
+.nav_links a {
+  color: #4ab19a;
+  text-decoration: none;
+  font-size: 15px;
+}
+.nav_contact {
+  margin: 45px;
+}
+.nav_contact a {
+  color: #4ab19a;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #4ab19a;
+}
+.intro_name{
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-size: 100px;
+    margin: 50px 0 10px 0;
 
 }
-.nav_ul{
-    display: flex ;
-
+.intro_about{
+    font-size: 50px;
+    margin: 0px;
+    font-family: 'Comforter', cursive;
 }
-.nav_links{
-    list-style: none;
-    margin: 30px;
-}
-.nav_links a{
-    color: #4AB19A;
-    text-decoration: none;
-    font-size: 15px;
-}
-.nav_contact{
-    margin: 45px;
-
-}
-.nav_contact a{
-    color: #4AB19A;
-    font-size: 15px;
-    text-decoration: none;
-}
-    
