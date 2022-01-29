@@ -1,6 +1,6 @@
-/* stylong with elements */
+/* styling with elements */
 body{
-    background-color:#161D26 ;
+    background-color:#E0EBE8 ;
 }
 /* styling with class */
 .nav{
@@ -9,7 +9,7 @@ body{
  align-items: center;
 }
 .nav_logo{
-    color: bisque;
+    color: #4AB19A;
     font-size: 2rem;
     margin: 45px;
 
@@ -23,7 +23,7 @@ body{
     margin: 30px;
 }
 .nav_links a{
-    color: bisque;
+    color: #4AB19A;
     text-decoration: none;
     font-size: 15px;
 }
@@ -32,7 +32,7 @@ body{
 
 }
 .nav_contact a{
-    color: bisque;
+    color: #4AB19A;
     font-size: 15px;
     text-decoration: none;
 }
