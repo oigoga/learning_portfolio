@@ -26,17 +26,28 @@ header.header {
   list-style: none;
   margin: 30px;
 }
+
+
 .nav_links a {
   color: #4ab19a;
   text-decoration: none;
-  font-size: 15px;
+  font-size: 20px;
+}
+.nav_links a:active{
+  color: #4ab19a;
+}
+.nav_links a:hover {
+  color: #7897AB;
+}
+.nav_links a:visited{
+  color: #7897AB;
 }
 .nav_contact {
   margin: 45px;
 }
 .nav_contact a {
   color: #4ab19a;
-  font-size: 15px;
+  font-size: 20px;
   text-decoration: none;
 }
 
