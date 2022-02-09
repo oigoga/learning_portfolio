@@ -37,10 +37,7 @@ header.header {
   color: #4ab19a;
 }
 .nav_links a:hover {
-  color: #7897AB;
-}
-.nav_links a:visited{
-  color: #7897AB;
+  color: #f45b69
 }
 .nav_contact {
   margin: 45px;
