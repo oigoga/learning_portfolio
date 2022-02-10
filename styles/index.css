@@ -14,13 +14,12 @@ header.header {
   justify-content: space-between;
   align-items: center;
 }
-.nav_logo {
-  color: #4ab19a;
-  font-size: 2rem;
-  margin: 45px;
-}
+
+
 .nav_ul {
   display: flex;
+  flex-direction: row;
+  justify-content: right;
 }
 .nav_links {
   list-style: none;
@@ -34,19 +33,12 @@ header.header {
   font-size: 20px;
 }
 .nav_links a:active{
-  color: #4ab19a;
+  color: #f45b69;
 }
 .nav_links a:hover {
-  color: #f45b69
+  color: #f45b69 
 }
-.nav_contact {
-  margin: 45px;
-}
-.nav_contact a {
-  color: #4ab19a;
-  font-size: 20px;
-  text-decoration: none;
-}
+
 
 .intro{
     display: flex;
@@ -65,14 +57,4 @@ header.header {
     font-size: 50px;
     margin: 0px;
     font-family: 'Comforter', cursive;
-}
-.homeimg{
-  width: 65%;
-  vertical-align: middle;
-  border: 75px;
-  height: auto;
-  margin:50px 0 10px 0 ;
-}
-.circular{
-  border-radius: 100%;
 }

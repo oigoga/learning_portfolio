@@ -1,9 +1,74 @@
-.nav_links a:active{
-    color: #7897AB;
+
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Special+Elite&display=swap');
+body {
+  background-color: whitesmoke;
 }
-.nav_links a:hover {
-    color: #7897AB;
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.nav_links a:visited{
-    
+
+.nav_ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
+.nav_links {
+  list-style: none;
+  margin: 30px;
+}
+
+.nav_links a {
+    color: #4ab19a;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  .nav_links a:active{
+    color: #f45b69;
+  }
+  .nav_links a:hover {
+    color: #f45b69 
+  }
+
+.column-one {
+
+  background-color:#e0ebe8;
+  
+  width: 400px;
+  height: 300px;
+ margin-right: 10px;
+ margin-left: 80px;
+ font-family: 'Gideon Roman', cursive;
+ border: 15px;
+ color: #4ab19a;
+ 
+}
+.second-column {
+  background-color: #e0ebe8;
+ 
+  width: 400px;
+  height: 150px;
+  margin-left: 10px ;
+  margin-right: 10px;
+  font-family: 'Gideon Roman', cursive;
+  border: 15px;
+  color: #4ab19a;
+}
+.third-column {
+  background-color: #e0ebe8;
+  
+   width: 400px;
+  height: 300px;
+  margin-left: 10px ;
+  margin-right: 60px;
+  font-family: 'Gideon Roman', cursive;
+  color: #4ab19a;
+ 
+  border: 15px;
+}
+img{
+    border-radius: 50%;
+    width: 700px;
+    height: 200px;
 }
