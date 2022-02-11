@@ -1,5 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Special+Elite&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Special+Elite&display=swap');
 body {
   background-color: whitesmoke;
 }
@@ -20,55 +21,58 @@ body {
 }
 
 .nav_links a {
-    color: #4ab19a;
-    text-decoration: none;
-    font-size: 20px;
-  }
-  .nav_links a:active{
-    color: #f45b69;
-  }
-  .nav_links a:hover {
-    color: #f45b69 
-  }
+  color: #4ab19a;
+  text-decoration: none;
+  font-size: 20px;
+}
+.nav_links a:active {
+  color: #f45b69;
+}
+.nav_links a:hover {
+  color: #f45b69;
+}
 
 .column-one {
+  background-color: #e0ebe8;
 
-  background-color:#e0ebe8;
-  
   width: 400px;
-  height: 300px;
- margin-right: 10px;
- margin-left: 80px;
- font-family: 'Gideon Roman', cursive;
- border: 15px;
- color: #4ab19a;
- 
+  height: 400px;
+  border-radius: 15px;
+  margin-right: 10px;
+  margin-left: 80px;
+  font-family: "Dancing Script", cursive;
+  border: 15px;
+  color: #4ab19a;
+  font-size: x-large;
 }
 .second-column {
   background-color: #e0ebe8;
- 
+
   width: 400px;
-  height: 150px;
-  margin-left: 10px ;
+  height: 250px;
+  border-radius: 15px;
+  margin-left: 10px;
   margin-right: 10px;
-  font-family: 'Gideon Roman', cursive;
-  border: 15px;
+  font-family: "Dancing Script", cursive;
   color: #4ab19a;
+  font-size: x-large;
 }
 .third-column {
   background-color: #e0ebe8;
-  
-   width: 400px;
-  height: 300px;
-  margin-left: 10px ;
+
+  width: 400px;
+  height: 450px;
+  border-radius: 15px;
+  margin-left: 10px;
   margin-right: 60px;
-  font-family: 'Gideon Roman', cursive;
+  font-family: "Dancing Script", cursive;
+  font-size: x-large;
   color: #4ab19a;
- 
+
   border: 15px;
 }
-img{
-    border-radius: 50%;
-    width: 700px;
-    height: 200px;
+img {
+  border-radius: 50%;
+  width: 700px;
+  height: 200px;
 }
