@@ -31,10 +31,13 @@ body {
 .nav_links a:hover {
   color: #f45b69;
 }
-
+.table{
+  position: relative;
+  bottom: 50px;
+}
 .column-one {
   background-color: #e0ebe8;
-
+  padding: 5px;
   width: 400px;
   height: 400px;
   border-radius: 15px;
@@ -44,10 +47,22 @@ body {
   border: 15px;
   color: #4ab19a;
   font-size: x-large;
+  position: relative;
+  bottom: 80px;
+  
+}
+img {
+  border-radius: 50%;
+  width: 700px;
+  height: 200px;
+  display: inline-block;
+  position: relative;
+  left: 320px;
+  top: 40px;
 }
 .second-column {
   background-color: #e0ebe8;
-
+  padding: 5px;
   width: 400px;
   height: 250px;
   border-radius: 15px;
@@ -56,23 +71,24 @@ body {
   font-family: "Dancing Script", cursive;
   color: #4ab19a;
   font-size: x-large;
+  position: relative;
+  bottom: 10px;
+  
 }
 .third-column {
   background-color: #e0ebe8;
-
+  padding: 5px;
   width: 400px;
-  height: 450px;
+  height: 500px;
   border-radius: 15px;
   margin-left: 10px;
   margin-right: 60px;
   font-family: "Dancing Script", cursive;
   font-size: x-large;
   color: #4ab19a;
-
+  position: relative;
+  bottom: 120px;
+  
   border: 15px;
 }
-img {
-  border-radius: 50%;
-  width: 700px;
-  height: 200px;
-}
+
