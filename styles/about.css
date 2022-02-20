@@ -8,6 +8,8 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  right: 30px;
+  position: fixed;
 }
 
 .nav_ul {
@@ -31,10 +33,12 @@ body {
 .nav_links a:hover {
   color: #f45b69;
 }
-.table{
-  position: relative;
-  bottom: 50px;
+.div_table {
+  position: absolute;
+  right: 60px;
+  left: 100px;
 }
+
 .column-one {
   background-color: #e0ebe8;
   padding: 5px;
@@ -42,24 +46,28 @@ body {
   height: 400px;
   border-radius: 15px;
   margin-right: 10px;
-  margin-left: 80px;
   font-family: "Dancing Script", cursive;
-  border: 15px;
   color: #4ab19a;
   font-size: x-large;
-  position: relative;
-  bottom: 80px;
+  position: absolute;
+  top: 200px;
+  left: 30px;
   
 }
-img {
+
+
+
+
+.img1 {
   border-radius: 50%;
   width: 700px;
   height: 200px;
   display: inline-block;
-  position: relative;
-  left: 320px;
-  top: 40px;
+  position: absolute;
+  top: 300px;
+  left: 420px ;
 }
+
 .second-column {
   background-color: #e0ebe8;
   padding: 5px;
@@ -71,9 +79,18 @@ img {
   font-family: "Dancing Script", cursive;
   color: #4ab19a;
   font-size: x-large;
-  position: relative;
-  bottom: 10px;
-  
+  position: absolute;
+  top: 600px;
+  left: 430px;
+}
+.img2 {
+  border-radius: 50%;
+  width: 300px;
+  height: 200px;
+  display: inline-block;
+  position: absolute;
+  top: 600px;
+  left:870px;
 }
 .third-column {
   background-color: #e0ebe8;
@@ -82,13 +99,15 @@ img {
   height: 500px;
   border-radius: 15px;
   margin-left: 10px;
-  margin-right: 60px;
+  
   font-family: "Dancing Script", cursive;
   font-size: x-large;
   color: #4ab19a;
-  position: relative;
-  bottom: 120px;
+  position: absolute;
+  top: 850px;
+  left: 840px;
   
-  border: 15px;
+ 
 }
+
 
