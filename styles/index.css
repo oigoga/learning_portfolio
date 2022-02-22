@@ -13,6 +13,8 @@ header.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: absolute;
+  right: 30px;
 }
 
 
@@ -46,11 +48,14 @@ header.header {
     justify-content: center;
     align-items: center;
     color: #4ab19a;
+    position: absolute;
+    top: 50px;
+    left: 500px;
 }
 .intro_name{
     font-family: 'Mochiy Pop P One', sans-serif;
     font-size: 100px;
-    margin: 35px 0 10px 0;
+    margin: 15px 0 10px 0;
 
 }
 .intro_about{
@@ -59,11 +64,11 @@ header.header {
     font-family: 'Comforter', cursive;
 }
 .image_two{
-  width: 500px;
-  height: 400px;
+  width: 600px;
+  height: 450px;
   position: absolute;
-  top: 380px;
-  left: 550px; 
+  top: 280px;
+  left: 455px; 
   margin: 0 auto 0 auto;
 
 }
