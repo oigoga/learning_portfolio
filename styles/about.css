@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
 
 body {
-  background-color: whitesmoke;
+  background-color: #3f3d56;
 }
 .nav {
   display: flex;
@@ -23,7 +23,7 @@ body {
 }
 
 .nav_links a {
-  color: #4ab19a;
+  color: #e0ebe8;
   text-decoration: none;
   font-size: 20px;
 }
@@ -37,7 +37,6 @@ body {
   position: absolute;
   right: 60px;
   left: 100px;
-  top: 100px;
 }
 
 .column-one {
@@ -53,19 +52,6 @@ body {
   position: absolute;
   top: 200px;
   left: 30px;
-  
-}
-
-
-
- .img_one {
-  border-radius: 50%;
-  width: 700px;
-  height: 200px;
-  display: inline-block;
-  position: absolute;
-  top: 300px;
-  left: 420px ;
 }
 
 .second-column {
@@ -83,15 +69,7 @@ body {
   top: 600px;
   left: 430px;
 }
- .img_two {
-  border-radius: 50%;
-  width: 300px;
-  height: 300px;
-  display: inline-block;
-  position: absolute;
-  top: 600px;
-  left:870px;
-}
+
 .third-column {
   background-color: #e0ebe8;
   padding: 5px;
@@ -99,15 +77,29 @@ body {
   height: 500px;
   border-radius: 15px;
   margin-left: 10px;
-  
+
   font-family: "Dancing Script", cursive;
   font-size: x-large;
   color: #4ab19a;
   position: absolute;
   top: 850px;
   left: 840px;
-  
- 
 }
-
-
+.image_one {
+  border-radius: 50%;
+  width: 400px;
+  height: 450px;
+  display: inline-block;
+  position: absolute;
+  top: 200px;
+  left: 540px;
+}
+.image_three {
+  border-radius: 50%;
+  width: 400px;
+  height: 230px;
+  display: inline-block;
+  position: absolute;
+  top: 600px;
+  left: 940px;
+}
