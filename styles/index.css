@@ -1,8 +1,9 @@
 /* styling with elements */
-@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Comforter&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comforter&display=swap");
 body {
   margin: 0;
+  text-align: center;
 }
 header.header {
   height: 100vh;
@@ -17,7 +18,6 @@ header.header {
   right: 30px;
 }
 
-
 .nav_ul {
   display: flex;
   flex-direction: row;
@@ -28,47 +28,124 @@ header.header {
   margin: 30px;
 }
 
-
 .nav_links a {
   color: #4ab19a;
   text-decoration: none;
   font-size: 20px;
 }
-.nav_links a:active{
+.nav_links a:active {
   color: #f45b69;
 }
 .nav_links a:hover {
-  color: #f45b69 
+  color: #f45b69;
 }
 
-
-.intro{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: #4ab19a;
-    position: absolute;
-    top: 50px;
-    left: 500px;
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #4ab19a;
+  position: absolute;
+  top: 50px;
+  left: 500px;
 }
-.intro_name{
-    font-family: 'Mochiy Pop P One', sans-serif;
-    font-size: 100px;
-    margin: 15px 0 10px 0;
-
+.intro_name {
+  font-family: "Mochiy Pop P One", sans-serif;
+  font-size: 100px;
+  margin: 15px 0 10px 0;
 }
-.intro_about{
-    font-size: 50px;
-    margin: 0px;
-    font-family: 'Comforter', cursive;
+.intro_about {
+  font-size: 50px;
+  margin: 0px;
+  font-family: "Comforter", cursive;
 }
-.image_two{
+.image_two {
   width: 600px;
   height: 450px;
   position: absolute;
   top: 280px;
-  left: 455px; 
+  left: 455px;
   margin: 0 auto 0 auto;
+}
+.middle-container {
+  text-align: center;
+  background-color: #e0ebe8;
+  text-align: center;
+  color: #40514E;
+}
+.profile{
+  width: 50%;
+  text-align: center;
+  margin: auto;
+  line-height: 2;
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
 
+
+.image_one {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.image-three {
+  width: 25%;
+  margin-left: 30px;
+  float: right;
+}
+h2{
+  color: #4ab19a;
+  font-family: "Dancing Script", cursive;
+}
+h3{
+  color: #4ab19a;
+  font-family: "Dancing Script", cursive;
+}
+hr{
+  border: #40514e dotted 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto 100px auto;
+}
+.bottom-container{
+  background-color: #4ab19a;
+  height: 100px;
+  color: #40514E;
+}
+.footer-link-one{
+  color: #e0ebe8;
+  margin: 30px 10px auto auto;
+  padding: 25px auto;
+}
+.footer-link-one:hover{
+  color: #40514E;
+}
+.footer-link-two{
+  color: #e0ebe8; 
+  margin: 30px 10px auto auto ;
+  padding: 25px auto;
+}
+.footer-link-two:hover{
+  color: #40514E;
+}
+.footer-link-three{
+  color: #e0ebe8;
+  padding: 25px auto;
+}
+.footer-link-three:hover{
+  color: #40514E;
+}
+.contact-me{
+  width: 40%;
+  text-align: center;
+  margin: auto;
+}
+.copyright{
+  font-size: 0.75rem;
+  padding: 20px auto;
 }
