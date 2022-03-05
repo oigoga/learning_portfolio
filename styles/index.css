@@ -112,10 +112,33 @@ hr{
   width: 4%;
   margin: 100px auto 100px auto;
 }
+.btn {
+  background: #4ab191;
+  background-image: -webkit-linear-gradient(top, #4ab191, #e0ebe8);
+  background-image: -moz-linear-gradient(top, #4ab191, #e0ebe8);
+  background-image: -ms-linear-gradient(top, #4ab191, #e0ebe8);
+  background-image: -o-linear-gradient(top, #4ab191, #e0ebe8);
+  background-image: linear-gradient(to bottom, #4ab191, #e0ebe8);
+  -webkit-border-radius: 39;
+  -moz-border-radius: 39;
+  border-radius: 39px;
+  font-family: "Dancing Script", cursive;
+  color: #40514e;
+  font-size: 19px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background:  #3f3d56;
+  text-decoration: none;
+  color: #e0ebe8;
+}
 .bottom-container{
   background-color: #4ab19a;
-  height: 100px;
+  height: 75px;
   color: #40514E;
+  padding: 50px 0 20px;
 }
 .footer-link-one{
   color: #e0ebe8;
@@ -144,8 +167,9 @@ hr{
   width: 40%;
   text-align: center;
   margin: auto;
+  height: 150px;
 }
 .copyright{
-  font-size: 0.75rem;
+  font-size: 0.9rem;
   padding: 20px auto;
 }
