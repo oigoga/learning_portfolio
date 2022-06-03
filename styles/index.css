@@ -57,8 +57,9 @@ header.header {
 }
 .intro_about {
   font-size: 50px;
-  margin: 0px;
+  margin:    0;
   font-family: "Comforter", cursive;
+  padding-bottom: 20px;
 }
 .image_two {
   width: 600px;
@@ -73,12 +74,17 @@ header.header {
   background-color: #e0ebe8;
   text-align: center;
   color: #40514E;
+  scroll-behavior: smooth;
 }
 .profile{
   width: 50%;
   text-align: center;
   margin: auto;
   line-height: 2;
+}
+.headshot{
+  border-radius: 50%;
+  height: 300px;
 }
 .skill-row {
   width: 50%;
@@ -90,6 +96,7 @@ header.header {
 
 .image_one {
   width: 25%;
+  height: 200px;
   float: left;
   margin-right: 30px;
 }
@@ -168,6 +175,7 @@ hr{
   text-align: center;
   margin: auto;
   height: 150px;
+  scroll-behavior: smooth;
 }
 .copyright{
   font-size: 0.9rem;
